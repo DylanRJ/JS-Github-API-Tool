@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "esbuild": "^0.14.1"
+  },
+  "name": "js-http",
+  "version": "1.0.0",
+  "main": "fetchGithubRepo.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "esbuild index.js --bundle  --outfile=bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
